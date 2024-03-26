@@ -1,0 +1,9 @@
+{
+  "name": "ProjetChefD'Oeuvre",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "sharonmbuyi <sharonmbuyi0@gmail.com>",
+  "license": "MIT",
+  "workspaces":["server","client"],
+  "private":"true"
+}
