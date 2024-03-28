@@ -4,6 +4,15 @@
   "main": "index.js",
   "author": "sharonmbuyi <sharonmbuyi0@gmail.com>",
   "license": "MIT",
-  "workspaces":["server","client"],
-  "private":"true"
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "start": "concurrently \"yarn workspace server start\" \"yarn workspace client dev\""
+  },
+  "private": "true",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
 }
