@@ -17,4 +17,4 @@ Backend- server:
 
 lancer le backend avec la commende : yarn start
 
-#Monorepos : pour lancer le projet en monorepos utiliser cette commande : yarn start
+#Monorepos : pour lancer le projet en monorepos utiliser cette commande : yarn start# Saficare
